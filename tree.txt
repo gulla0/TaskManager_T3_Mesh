@@ -1,0 +1,66 @@
+.
+├── README.md
+├── next-env.d.ts
+├── next.config.js
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── prettier.config.js
+├── prisma
+│   ├── db.sqlite
+│   ├── db.sqlite-journal
+│   ├── migrations
+│   │   ├── 20241218004708_init
+│   │   │   └── migration.sql
+│   │   ├── 20241222210204_init
+│   │   │   └── migration.sql
+│   │   └── migration_lock.toml
+│   └── schema.prisma
+├── public
+│   └── favicon.ico
+├── src
+│   ├── app
+│   │   ├── _components
+│   │   │   ├── taskForm.tsx
+│   │   │   ├── taskList.tsx
+│   │   │   ├── wallet.tsx
+│   │   │   ├── walletLogin.tsx
+│   │   │   └── walletLoginClient.tsx
+│   │   ├── _trpc
+│   │   │   └── Provider.tsx
+│   │   ├── actions
+│   │   │   └── meshServer.ts
+│   │   ├── api
+│   │   │   └── trpc
+│   │   │       └── [trpc]
+│   │   │           └── route.ts
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── env.js
+│   ├── providers
+│   │   └── meshProvider.tsx
+│   ├── server
+│   │   ├── api
+│   │   │   ├── context.ts
+│   │   │   ├── root.ts
+│   │   │   ├── routers
+│   │   │   │   ├── post.ts
+│   │   │   │   └── task.ts
+│   │   │   └── trpc.ts
+│   │   └── db.ts
+│   ├── styles
+│   │   └── globals.css
+│   ├── trpc
+│   │   ├── query-client.ts
+│   │   ├── react.tsx
+│   │   └── server.ts
+│   ├── types
+│   │   └── types.ts
+│   └── utils
+│       └── api.ts
+├── tailwind.config.ts
+├── tree.txt
+└── tsconfig.json
+
+22 directories, 42 files
